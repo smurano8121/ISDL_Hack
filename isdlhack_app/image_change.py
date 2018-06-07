@@ -16,21 +16,26 @@ if __name__ == '__main__':
     # 背景画像との差分を算出
     img_diff = cv2.absdiff(img_src2, img_src1)
 
-    # 差分を二値化
-    img_binary= cv2.threshold(img_diff, 120, 255, cv2.THRESH_BINARY)[1]
+    #グレーに変更
+    img_gray = cv2.cvtColor(img_diff, cv2.COLOR_BGR2GRAY)
+
+    # 二値化
+    img_binary= cv2.threshold(img_gray, 100, 255, cv2.THRESH_BINARY)[1]
+
+    #jpgファイル生成
+    cv2.imwrite('./img/img_gen.jpg', img_binary)
 
     #画素（高さ，幅，チャンネル数）を取得
     print (img_binary.shape)
-    height, width, ch = img_binary.shape
+
+    height, width = img_binary.shape
     print(width)
     print(height)
 
     for i in range(0, height):
         for j in range(0, width):
-            pixelblue = img_binary[i, j, 0]
-            pixelgreen = img_binary[i, j, 1]
-            pixelred = img_binary[i, j, 2]
-            if int(pixelblue) !=0 or int(pixelgreen) !=0 or int(pixelred) !=0:
+            pixel = img_binary[i, j]
+            if int(pixel) != 0 :
                 count+=1
 
     print count
@@ -39,5 +44,3 @@ if __name__ == '__main__':
         print('物を忘れてますよ')
     else:
         print('忘れ物はないです')
-
-    #cv2.imwrite('./img/img_gen.jpg', img_binary)
