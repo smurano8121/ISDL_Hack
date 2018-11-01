@@ -1,0 +1,998 @@
+{
+	"4": {
+		"state": {
+			"on": true,
+			"bri": 241,
+			"hue": 7816,
+			"sat": 191,
+			"effect": "none",
+			"xy": [
+				0.4946,
+				0.4152
+			],
+			"ct": 433,
+			"alert": "select",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": false
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:42:52"
+		},
+		"type": "Extended color light",
+		"name": "Hue go 1",
+		"modelid": "LLC020",
+		"manufacturername": "Philips",
+		"productname": "Hue go",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 40,
+				"maxlumen": 300,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "huego",
+			"function": "decorative",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:01:16:df:c3-0b",
+		"swversion": "5.38.3.19141"
+	},
+	"5": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "select",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:44:12"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 4",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:33:1d:80-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"6": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "select",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:44:06"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 5",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:31:c5:8f-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"7": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:44:00"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 6",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:33:23:40-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"8": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:43:54"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 7",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:32:82:24-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"9": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:43:48"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 8",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:32:86:01-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"10": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:43:42"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 9",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:33:24:4a-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"11": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:43:36"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 10",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:33:1d:81-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"12": {
+		"state": {
+			"on": false,
+			"bri": 0,
+			"hue": 0,
+			"sat": 0,
+			"effect": "none",
+			"xy": [
+				0,
+				0
+			],
+			"ct": 0,
+			"alert": "none",
+			"colormode": "hs",
+			"mode": "homeautomation",
+			"reachable": false
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:43:31"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 11",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"ct": {
+					"min": 0,
+					"max": 65535
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:33:1d:31-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"13": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:43:25"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 12",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:31:bf:2d-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"14": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:44:24"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 13",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:32:d1:6e-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"15": {
+		"state": {
+			"on": true,
+			"bri": 238,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:44:18"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 14",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:32:d3:03-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"16": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 15324,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4449,
+				0.4066
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:43:19"
+		},
+		"type": "Extended color light",
+		"name": "Hue color lamp 15",
+		"modelid": "LCT007",
+		"manufacturername": "Philips",
+		"productname": "Hue color lamp",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 2000,
+				"maxlumen": 800,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "sultanbulb",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:02:44:0e:ab-0b",
+		"swversion": "5.50.1.19085"
+	},
+	"17": {
+		"state": {
+			"on": false,
+			"bri": 0,
+			"hue": 0,
+			"sat": 0,
+			"effect": "none",
+			"xy": [
+				0,
+				0
+			],
+			"ct": 0,
+			"alert": "none",
+			"colormode": "hs",
+			"mode": "homeautomation",
+			"reachable": false
+		},
+		"swupdate": {
+			"state": "transferring",
+			"lastinstall": null
+		},
+		"type": "Extended color light",
+		"name": "Hue go 2",
+		"modelid": "LLC020",
+		"manufacturername": "Philips",
+		"productname": "Hue go",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 40,
+				"maxlumen": 300,
+				"colorgamuttype": "other",
+				"ct": {
+					"min": 0,
+					"max": 65535
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "huego",
+			"function": "decorative",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:01:17:da:78-0b",
+		"swversion": "5.38.1.14378"
+	},
+	"18": {
+		"state": {
+			"on": true,
+			"bri": 240,
+			"hue": 8589,
+			"sat": 121,
+			"effect": "none",
+			"xy": [
+				0.4452,
+				0.4068
+			],
+			"ct": 346,
+			"alert": "none",
+			"colormode": "ct",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:43:07"
+		},
+		"type": "Extended color light",
+		"name": "Hue lightstrip plus 1",
+		"modelid": "LST002",
+		"manufacturername": "Philips",
+		"productname": "Hue lightstrip plus",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 40,
+				"maxlumen": 1600,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "huelightstrip",
+			"function": "mixed",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:01:1e:84:7c-0b",
+		"swversion": "5.50.2.19072"
+	},
+	"19": {
+		"state": {
+			"on": true,
+			"bri": 254,
+			"hue": 7695,
+			"sat": 254,
+			"effect": "none",
+			"xy": [
+				0.5347,
+				0.426
+			],
+			"ct": 500,
+			"alert": "select",
+			"colormode": "xy",
+			"mode": "homeautomation",
+			"reachable": true
+		},
+		"swupdate": {
+			"state": "readytoinstall",
+			"lastinstall": "2017-08-21T09:42:59"
+		},
+		"type": "Extended color light",
+		"name": "Hue go 3",
+		"modelid": "LLC020",
+		"manufacturername": "Philips",
+		"productname": "Hue go",
+		"capabilities": {
+			"certified": true,
+			"control": {
+				"mindimlevel": 40,
+				"maxlumen": 300,
+				"colorgamuttype": "other",
+				"colorgamut": [
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					],
+					[
+						0,
+						0
+					]
+				],
+				"ct": {
+					"min": 153,
+					"max": 500
+				}
+			},
+			"streaming": {
+				"renderer": false,
+				"proxy": false
+			}
+		},
+		"config": {
+			"archetype": "huego",
+			"function": "decorative",
+			"direction": "omnidirectional"
+		},
+		"uniqueid": "00:17:88:01:01:16:df:ae-0b",
+		"swversion": "5.38.3.19141"
+	}
+}

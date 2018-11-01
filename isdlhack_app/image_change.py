@@ -7,7 +7,7 @@ import os
 
 if __name__ == '__main__':
 
-    count = 0
+    count = [0,0,0,0]
 
     # 画像の読み込み
     img_src1 = cv2.imread("./img/image_01.jpg", 1)
@@ -35,10 +35,19 @@ if __name__ == '__main__':
     for i in range(0, height):
         for j in range(0, width):
             pixel = img_binary[i, j]
-            if int(pixel) != 0 :
-                count+=1
+            if i+j*(width/height) > 0 and i-j*(width/height)+height > 0 and int(pixel) != 0:
+                count[0]+=1
+            elif i+j*(width/height) < 0 and i-j*(width/height)+height > 0 and int(pixel) != 0:
+                count[1]+=1
+            elif i+j*(width/height) > 0 and i-j*(width/height)+height < 0 and int(pixel) != 0:
+                count[2]+=1
+            elif i+j*(width/height) < 0 and i-j*(width/height)+height < 0 and int(pixel) != 0 :
+                count[3]+=1
 
-    print count
+    print(count[0])
+    print(count[1])
+    print(count[2])
+    print(count[3])
 
     if count > 14000:
         print('物を忘れてますよ')
